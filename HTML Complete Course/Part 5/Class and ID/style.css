@@ -1,0 +1,14 @@
+/* CLASS SELECTOR */
+.red-color {
+  background-color: red;
+}
+
+.white {
+  color: white;
+}
+
+/* ID SELECTOR */
+
+#thisispara {
+  background-color: blueviolet;
+}

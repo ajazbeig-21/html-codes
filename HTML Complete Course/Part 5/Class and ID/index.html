@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Class Attribute in HTML</h1>
+
+    <p class="red-color white">This is Text</p>
+    <p>This is Text</p>
+    <p>This is Text</p>
+    <p class="red-color">This is Text</p>
+    <p>This is Text</p>
+    <p>This is Text</p>
+
+    <span class="red-color">This is SPAN</span>
+
+    <h1>ID Attribute in HTML</h1>
+
+    <p id="thisispara">This is Paragraph (ID Selector)</p>
+    <button onclick="changeText()">Click Me 👆</button>
+
+    <div style="margin-bottom: 400px"></div>
+
+    <script>
+      function changeText() {
+        document.getElementsById("thisispara").innerText =
+          "You Changed The Text 🔥";
+      }
+    </script>
+  </body>
+</html>
